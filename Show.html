@@ -1,0 +1,194 @@
+<HTML>   
+  
+<html lang="en">  
+  
+<head>  
+  
+<meta charset="UTF-8">  
+  
+<title>Show Bonzi</title>  
+  
+<link rel="stylesheet" href="style.css">  
+  
+</head>  
+  
+<body>  
+  
+   
+  
+<div class="tv-frame">  
+  
+   
+  
+    <div class="tv-screen">  
+  
+        <div class="screen-content">  
+  
+   
+  
+<HTML>   
+  
+    
+<div class="navbar"> 
+  <a href="index.html">Bonzi</a> 
+  <div class="dropdown"> 
+    <button class="dropbtn">Entertainment  
+      <i class="fa fa-caret-down"></i> 
+    </button> 
+    <div class="dropdown-content"> 
+      <a href="Show.html">Show</a> 
+      <a href="Film.html">Film</a> 
+    </div> 
+  </div>  
+  <div class="dropdown"> 
+    <button class="dropbtn">Other  
+      <i class="fa fa-caret-down"></i> 
+    </button> 
+    <div class="dropdown-content"> 
+      <a href="contact.html">Contact</a> 
+      <a href="info.html">Information</a> 
+   </div>
+  </div>
+  
+<div class="dropdown"> 
+  <button onclick="myFunction()" class="dropbtn">Search</button> 
+  <div id="myDropdown" class="dropdown-content"> 
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> 
+  
+<ul id="myUL"> 
+  <li><a href="spiders.html">Spiders Web a Pigs Tale</a></li> 
+  <li><a href="10things.html">10 things i hate about you</a></li> 
+  
+  <li><a href="Tangeled.html">Tangeled</a></li> 
+  <li><a href="Lorax.html">Lorax</a></li> 
+  
+  <li><a href="Ducks.html">Duck tails the lost lamp</a></li> 
+  <li><a href="Baymax.html">Baymax</a></li>
+  <li><a href="Nightmare.html">Nightmare before christmas</a></li> 
+</ul> 
+    </div> 
+  </div>  
+</div>  
+
+<!-- I am 5 minutes through the video, now i finished it -->   
+  
+   
+  
+<!-- https://htmlcolorcodes.com/color-picker/ -->   
+  
+   
+  
+</head>   
+  
+   
+  
+<body>   
+  
+   
+  
+</body>   
+  
+<!DOCTYPE html>  
+  
+<html>  
+  
+<head>  
+  
+<style>  
+  
+.image-row {  
+  
+  display: flex;           /* Arrange items in a row */  
+  
+  gap: 25px;               /* Space between images */  
+  
+  flex-wrap: wrap;         /* Wrap to next line if needed */  
+  
+}  
+  
+.image-row img {  
+  
+  max-width: 100%;         /* Make images responsive */  
+  
+  height: auto;  
+  
+}  
+  
+</style>  
+  
+</head>  
+  
+<body>  
+  
+   <h2><u> Most rewatched Shows </u></h2>  
+  
+<div class="image-row">  
+  
+  <a href="Fast.html" target="blank">
+<img src="Fast.webp"  alt="How to sell drugs online" width="150">  
+  
+  <a href="Desperate.html" target="blank">
+<img src="Desperate.webp"  alt="Desperate housewives" width="150">  
+  
+  <a href="Saiki.html" target="blank">
+<img src="Saiki.webp"  alt="Saiki K" width="150">  
+  
+  <a href="Rick.html" target="blank">
+<img src="Rick.webp"  alt="Rick and Morty" width="150">  
+  
+  <a href="Gossip.html" target="blank">
+<img src="Gossip.webp"  alt="Gossip girl" width="150">  
+  
+<!-- <img src=""  alt="" width=""> -->  
+  
+  </div> 
+   
+<h2><u>Others </u></h2>  
+  
+<div class="image-row">  
+  
+  <a href="Pokemon.html" target="blank">
+<img src="Pokemon.webp"  alt="Pokemon" width="150">  
+  
+  <a href="Danger.html" target="blank">
+<img src="Danger.webp"  alt="Danger mouse" width="150">  
+  
+  <a href="Family.html" target="blank">
+<img src="Family.webp"  alt="Family guy" width="150">  
+  
+  <a href="Plebs.html" target="blank">
+<img src="Plebs.webp"  alt="Plebs" width="150">  
+  
+  <a href="suits.html" target="blank">
+<img src="suits.webp"  alt="Suits" width="150">  
+  
+</div>  
+  
+</div>  
+  
+  
+  
+<script> 
+function myFunction() { 
+    var input, filter, ul, li, a, i, txtValue; 
+    input = document.getElementById("myInput"); 
+    filter = input.value.toUpperCase(); 
+    ul = document.getElementById("myUL"); 
+    li = ul.getElementsByTagName("li"); 
+    for (i = 0; i < li.length; i++) { 
+        a = li[i].getElementsByTagName("a")[0]; 
+        txtValue = a.textContent || a.innerText; 
+        if (txtValue.toUpperCase().indexOf(filter) > -1) { 
+            li[i].style.display = ""; 
+        } else { 
+            li[i].style.display = "none"; 
+        } 
+    } 
+} 
+</script> 
+  
+</body>  
+  
+</html>  
+  
+</HTML>   
